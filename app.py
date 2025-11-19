@@ -8,7 +8,7 @@ Usage:
 """
 import argparse, sys, calculator as calc
 
-def multiply(a, b):
+def multiply(a, b) ->int: # multiplies two numbers
     return a * b
 
 def main(argv=None):
