@@ -8,6 +8,9 @@ Usage:
 """
 import argparse, sys, calculator as calc
 
+def multiply(a: int, b:int) ->int:
+    return a * b
+
 def main(argv=None):
     parser = argparse.ArgumentParser(description="Calculator CLI (Git practice)")
     sub = parser.add_subparsers(dest="cmd", required=True)
